@@ -1,0 +1,34 @@
+header h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+#container {
+    margin: 0 auto 3em;
+    width: 730px;
+    position: relative;
+    text-align: center;
+}
+
+.cat-pic {
+    border-radius: 1em;
+}
+
+#cat-message {
+    position: absolute;
+    left: 50%;
+    top: 522px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#cat-2-message {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    color: white;
+}
