@@ -32,3 +32,23 @@ for (let pic of catPics) {
 
 }
 
+// When menu item is clicked that cat is brought up and all other cats are hidden
+const featuredCatList = document.querySelectorAll('.dropdown-menu a');
+
+for (cats of featuredCatList) {
+
+    cats.addEventListener('click', e => {
+    
+        const allCats = document.querySelectorAll('.cat');
+
+        for (cat of allCats) {
+            cat.classList = 'cat hidden';
+        }
+
+        const selectedCat = e.target.getAttribute('href');
+        document.querySelectorAll(selectedCat)[0].classList.toggle('hidden');
+
+    });
+}
+
+

@@ -7,6 +7,10 @@ h3 {
     padding-left: 0.5em;
 }
 
+#featured-cats {
+    margin-left: 1.25em;
+}
+
 #container {
     margin: 0 auto 3em;
     width: 730px;
@@ -31,4 +35,8 @@ h3 {
     bottom: 0;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.hidden {
+    display: none;
 }
