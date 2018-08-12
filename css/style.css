@@ -1,3 +1,7 @@
+/* 
+*   TODO: Major Style overhaul
+*/
+
 header h1 {
     text-align: center;
 }
@@ -11,7 +15,7 @@ h3 {
     margin-left: 1.25em;
 }
 
-#container {
+#cat-view {
     margin: 0 auto 3em;
     width: 730px;
     position: relative;
